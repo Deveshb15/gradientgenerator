@@ -15,6 +15,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 1rem;
+    overflow: hidden;
 }
 
 button{
@@ -32,4 +34,16 @@ button:hover{
 }
 button:active{
     transform: scale(0.98);
+}
+
+input{
+    font-style: italic;
+    font-size: 1.1rem;
+    padding: 0.5rem ;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+input:focus{
+    outline: none;
 }
